@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e2336ccb9ac6d52d76bba05fbf662db",
+    "revision": "bcb2fb63190ffdb24f1965325f953b53",
     "url": "/ventus-app/index.html"
   },
   {
