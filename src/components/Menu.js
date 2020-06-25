@@ -1,9 +1,10 @@
 import React, {Fragment} from 'react';
 
 const Menu = () => {
+    console.log(process.env.PUBLIC_URL);
     return (  
         <Fragment>
-            <section className="navbar custom-navbar navbar-fixed-top" role="navigation">
+            <section className="navbar custom-navbar navbar-expand-lg fixed-top" role="navigation">
                 <div className="container">
 
                     <div className="navbar-header">
@@ -14,7 +15,7 @@ const Menu = () => {
                         </button>
 
                         
-                        <a href={'/'} className="navbar-brand"><img src="images/ventus-logo-brand.png" alt="Logo Ventus"></img></a>
+                        <a href={'/'} className="navbar-brand"><img src={process.env.PUBLIC_URL + '/images/ventus-logo-brand.png'} alt="Logo Ventus"></img></a>
                     </div>
 
                 
@@ -28,7 +29,7 @@ const Menu = () => {
                         </ul>
 
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href={'https://wa.me/573016851182'} target="_blank"><i className="fa fa-phone"></i> (+57) 3016851182</a></li>
+                            <li><a href={'https://wa.me/573016851182'} target="_blank" rel="noopener noreferrer"><i className="fa fa-phone"></i> (+57) 3016851182</a></li>
                         </ul>
                     </div>
 

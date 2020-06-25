@@ -33,7 +33,7 @@ const Contacto = () => {
 
                         <div className="col-md-6 col-sm-12">
                             <div className="contact-image">
-                                <img src="images/ventus5.jpg" className="img-responsive" alt="Smiling Two Girls"></img>
+                                <img src={process.env.PUBLIC_URL +'/images/ventus5.jpg'} className="img-responsive" alt="Smiling Two Girls"></img>
                             </div>
                         </div>
 

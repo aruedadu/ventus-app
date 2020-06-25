@@ -23,7 +23,7 @@ const Servicios = () => {
                                             </div>
                                             <div className="courses-top">
                                                 <div className="courses-image">
-                                                    <img src="images/ventus4.jpg" className="img-responsive" alt=""></img>
+                                                    <img src={process.env.PUBLIC_URL +'/images/ventus4.jpg'} className="img-responsive" alt=""></img>
                                                 </div>
                                                 <div className="courses-date">
                                                     <span><i className="fa fa-calendar"></i> Todos los dias</span>
@@ -38,12 +38,12 @@ const Servicios = () => {
                                     <div className="item">
                                         <div className="courses-thumb">
                                             <div className="courses-detail">
-                                                <h3><a href="#">Ventus Kids</a></h3>
+                                                <h3>Ventus Kids</h3>
                                                 <p>Entrenamientos enfocados a personitas de 8 a 14 años, donde desarrollamos las habilidades en el voley playa.</p>
                                             </div>
                                             <div className="courses-top">
                                                 <div className="courses-image">
-                                                    <img src="images/kids.jpg" className="img-responsive" alt=""></img>
+                                                    <img src={process.env.PUBLIC_URL +'/images/kids.jpg'} className="img-responsive" alt=""></img>
                                                 </div>
                                                 <div className="courses-date">
                                                     <span><i className="fa fa-calendar"></i>Por definir</span>
@@ -58,12 +58,12 @@ const Servicios = () => {
                                     <div className="item">
                                         <div className="courses-thumb">
                                         <div className="courses-detail">
-                                                <h3><a href="#">Entrenamientos y preparación física</a></h3>
+                                                <h3>Entrenamientos y preparación física</h3>
                                                 <p>Contamos con entrenadores que pueden apoyarte en tu desarollo deportivo tanto en habilidades técnicas como capacidades físicas.</p>
                                             </div>
                                             <div className="courses-top">
                                                 <div className="courses-image">
-                                                    <img src="images/ventus7.jpg" className="img-responsive" alt=""></img>
+                                                    <img src={process.env.PUBLIC_URL +'/images/ventus7.jpg'} className="img-responsive" alt=""></img>
                                                 </div>
                                                 <div className="courses-date">
                                                     <span><i className="fa fa-calendar"></i> Por definir</span>
@@ -78,12 +78,12 @@ const Servicios = () => {
                                     <div className="item">
                                         <div className="courses-thumb">
                                         <div className="courses-detail">
-                                                <h3><a href="#">Torneos y eventos empresariales</a></h3>
+                                                <h3>Torneos y eventos empresariales</h3>
                                                 <p>Organizamos torneos de vóley playa de carácter competitivo, además de la organización y logística de eventos deportivos empresariales  fomentando la recreación y la integración social corporativa.</p>
                                             </div>
                                             <div className="courses-top">
                                                 <div className="courses-image">
-                                                    <img src="images/ventus2.jpg" className="img-responsive" alt=""></img>
+                                                    <img src={process.env.PUBLIC_URL +'/images/ventus2.jpg'} className="img-responsive" alt=""></img>
                                                 </div>
                                                 <div className="courses-date">
                                                     <span><i className="fa fa-calendar"></i> Periodicamente</span>

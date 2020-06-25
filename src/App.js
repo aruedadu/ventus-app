@@ -13,6 +13,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={ () => <Home />}></Route>
+        <Route exact path="/ventus-app" component={ () => <Home />}></Route>
         <Route exact path="/nosotros" component={ () => <Nosotros />}></Route>
         <Route exact path="/servicios" component={ () => <Servicios />}></Route>
         <Route exact path="/contacto" component={ () => <Contacto />}></Route>

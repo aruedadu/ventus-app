@@ -36,7 +36,7 @@ const Home = () => {
                                     <span>02</span>
                                     <h3>Torneos y eventos</h3>
                                     <p>Realizamos torneos periodicamente y eventos empresariales.</p>
-                                    <a href={'https://wa.me/573016851182'} target="_blank" className="btn btn-default"><i className="fa fa-mobile"></i> Pregúntanos</a>
+                                    <a href={'https://wa.me/573016851182'} target="_blank" rel="noopener noreferrer" className="btn btn-default"><i className="fa fa-mobile"></i> Pregúntanos</a>
                                 </div>
                             </div>
 
