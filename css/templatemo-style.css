@@ -303,7 +303,7 @@ https://templatemo.com/tm-516-known
     display: inline-block;
     margin-right: 5px;
   }
-
+  
   .custom-navbar .nav li a {
     line-height: 40px;
     color: #575757;
@@ -316,7 +316,7 @@ https://templatemo.com/tm-516-known
     background-color: transparent;
   }
 
-  .custom-navbar .nav li a:hover {
+  .custom-navbar .nav li:hover {
     background-color: #3396FF;
     color: #ffffff;
   }
@@ -330,7 +330,6 @@ https://templatemo.com/tm-516-known
     border: none;
     padding-top: 10px;
   }
-
   .custom-navbar .navbar-toggle {
     background-color: transparent;
   }
@@ -394,14 +393,6 @@ https://templatemo.com/tm-516-known
     background-image: url(../images/ventus1.jpg);
     background-position: center;
     height: 650px;
-  }
-
-  .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
-  }
-
-  .home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
   }
 
 
@@ -509,14 +500,12 @@ https://templatemo.com/tm-516-known
   }
 
   #courses .owl-theme .owl-nav {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   #courses .owl-theme .owl-nav [class*=owl-] {
     border-radius: 2px;
     font-size: 16px;
-    width: 30px;
-    height: 30px;
     line-height: 30px;
     text-align: center;
     padding: 0;
@@ -525,7 +514,7 @@ https://templatemo.com/tm-516-known
   .courses-item {
     line-height: 30px;
     text-align: center;
-    padding: 20;
+    padding: 10;
   }
 
   .courses-thumb {
@@ -534,12 +523,11 @@ https://templatemo.com/tm-516-known
     
   }
 
-  .courses-top {
-    position: relative;
-  }
+ 
 
   .courses-image {
-    width: 100%;
+    max-width:100%;
+    height:auto;
   }
 
   .courses-date {
@@ -564,6 +552,7 @@ https://templatemo.com/tm-516-known
 
   .courses-detail {
     padding: 25px 25px 15px 25px;
+    width: auto;
   }
 
   .courses-detail h3 {
@@ -606,6 +595,10 @@ https://templatemo.com/tm-516-known
 
   .courses-price.free span {
     background: #3f51b5;
+  }
+
+  .item-course {
+    width: 100%;
   }
 
 
